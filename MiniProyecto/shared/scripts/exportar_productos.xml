@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="productos.xsl"?>
+<!--
+  ============================================
+  EXPORTACIÓN DE PRODUCTOS - ERP-POS
+  Formato XML estándar para intercambio de datos
+  ============================================
+-->
+<catalogo>
+    <empresa>
+        <nombre>ERP-POS Mini Proyecto</nombre>
+        <fecha_exportacion>2026-05-04</fecha_exportacion>
+        <version>1.0</version>
+    </empresa>
+    
+    <productos>
+        <producto>
+            <id>1</id>
+            <codigo>PROD001</codigo>
+            <codigo_barras>7701234567890</codigo_barras>
+            <nombre>Laptop HP Pavilion</nombre>
+            <descripcion>Laptop HP Pavilion 15.6" Intel Core i5 8GB RAM 256GB SSD</descripcion>
+            <categoria>Tecnología</categoria>
+            <precio_compra>1800000</precio_compra>
+            <precio_venta>2500000</precio_venta>
+            <stock_actual>10</stock_actual>
+            <stock_minimo>3</stock_minimo>
+            <impuesto>
+                <nombre>IVA</nombre>
+                <porcentaje>19</porcentaje>
+            </impuesto>
+            <activo>true</activo>
+        </producto>
+        
+        <producto>
+            <id>2</id>
+            <codigo>PROD002</codigo>
+            <codigo_barras>7701234567891</codigo_barras>
+            <nombre>Mouse Inalámbrico Logitech</nombre>
+            <descripcion>Mouse inalámbrico Logitech M185</descripcion>
+            <categoria>Tecnología</categoria>
+            <precio_compra>25000</precio_compra>
+            <precio_venta>45000</precio_venta>
+            <stock_actual>50</stock_actual>
+            <stock_minimo>10</stock_minimo>
+            <impuesto>
+                <nombre>IVA</nombre>
+                <porcentaje>19</porcentaje>
+            </impuesto>
+            <activo>true</activo>
+        </producto>
+        
+        <producto>
+            <id>3</id>
+            <codigo>PROD003</codigo>
+            <codigo_barras>7701234567892</codigo_barras>
+            <nombre>Teclado Mecánico RGB</nombre>
+            <descripcion>Teclado mecánico RGB Redragon Kumara K552</descripcion>
+            <categoria>Tecnología</categoria>
+            <precio_compra>65000</precio_compra>
+            <precio_venta>95000</precio_venta>
+            <stock_actual>2</stock_actual>
+            <stock_minimo>5</stock_minimo>
+            <impuesto>
+                <nombre>IVA</nombre>
+                <porcentaje>19</porcentaje>
+            </impuesto>
+            <activo>true</activo>
+        </producto>
+        
+        <producto>
+            <id>4</id>
+            <codigo>PROD004</codigo>
+            <codigo_barras>7701234567893</codigo_barras>
+            <nombre>Monitor Samsung 24"</nombre>
+            <descripcion>Monitor Samsung IPS 24" Full HD 75Hz</descripcion>
+            <categoria>Tecnología</categoria>
+            <precio_compra>450000</precio_compra>
+            <precio_venta>650000</precio_venta>
+            <stock_actual>8</stock_actual>
+            <stock_minimo>3</stock_minimo>
+            <impuesto>
+                <nombre>IVA</nombre>
+                <porcentaje>19</porcentaje>
+            </impuesto>
+            <activo>true</activo>
+        </producto>
+        
+        <producto>
+            <id>5</id>
+            <codigo>PROD005</codigo>
+            <codigo_barras>7701234567894</codigo_barras>
+            <nombre>Silla Ergonómica</nombre>
+            <descripcion>Silla de oficina ergonómica con soporte lumbar</descripcion>
+            <categoria>Muebles</categoria>
+            <precio_compra>350000</precio_compra>
+            <precio_venta>520000</precio_venta>
+            <stock_actual>15</stock_actual>
+            <stock_minimo>5</stock_minimo>
+            <impuesto>
+                <nombre>IVA</nombre>
+                <porcentaje>19</porcentaje>
+            </impuesto>
+            <activo>true</activo>
+        </producto>
+    </productos>
+    
+    <resumen>
+        <total_productos>5</total_productos>
+        <valor_total_inventario>3820000</valor_total_inventario>
+        <productos_stock_bajo>1</productos_stock_bajo>
+    </resumen>
+</catalogo>
